@@ -16,11 +16,10 @@ async function selectMediaStream() {
 // button event
 button.addEventListener('click', async () => {
     // disable button
+    selectMediaStream();
     button.disable = true;
     //start pip
     await videoElement.requestPictureInPicture();
     button.disable = false;
 });
 
-// Load
-selectMediaStream();
