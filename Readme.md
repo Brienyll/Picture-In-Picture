@@ -1,1 +1,2 @@
-Picture In Piucture
+Picture In Picture
+Picture in Picture
